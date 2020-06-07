@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Asap-Bold.ttf";
+    
+    src: url(Asap/Asap-Bold.ttf);
+    
+}
+
+@font-face {
+font-family: "Asap-Regular.ttf";
+src: url(Asap/Asap-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-family: "Asap-Regular.ttf";
+}
+
+
+body {
+    background: rgb(60, 60, 87);
+    color: white;
+}
+
+.app-header {
+    height: 15vh;
+    /* border: 1px solid ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+}
+
+
+.app-header h1 {
+   font-size: 4rem;
+   font-family: "Asap-Bold.ttf";
+   color: rgb(51, 44, 88);
+}
+
+
+.app-header h1 span {
+   font-size: 4.2rem;
+  color: rgb(113, 115, 156);
+  font-family: "Asap-Bold.ttf";
+}
+
+
+.app-header h1 i {
+   font-size: 5rem;
+    color: rgb(51, 44, 88);
+}
+
+.form .container form {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+
+}
+
+
+.form .container form input{
+    padding: 20px 10px;
+}
+
+
+button {
+    margin-top: 2rem ;
+    background: rgb(174, 174, 211) !important;
+    color: white !important;
+    box-shadow: none !important;
+    border: none !important;
+    transition: all 200ms ease-in !important;
+}
+
+button:active {
+    box-shadow: 0 0 0 5px rgb(255, 255, 255,0.2) !important;
+}
+
+.table {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.table thead tr th{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table thead tr th i{
+    color: rgb(152, 152, 185);
+    margin-right: 10px;
+}
+
+.data-row .delete{
+    color: rgb(255, 255, 255) !important;
+    text-align: center;
+    font-size: 1.7rem;
+    transition: all 180ms ease-in;
+    cursor: pointer;
+    /* position: relative;
+    top: 1px; */
+  
+}
+
+
+.data-row .delete:hover{
+   color: red !important;
+    transform: scale(1.1);
+}
+
+
+
+.data-row td{
+    color: rgb(255, 255, 255) !important;
+    text-align: center;
+    padding: 30px !important;
+}
+
+
+
+i {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
